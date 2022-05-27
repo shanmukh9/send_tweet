@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: ethomson/send-tweet-action@v1
         with:
-          status: "Day 8 Learnings: Revised everything learnt till date from Day 1 to Day 7"
+          status: "Day 26 Learnings: System logging (journal control)  & tried few commands #90daysofdevops #devops #linux"
           consumer-key: ${{ secrets.TWITTER_CONSUMER_API_KEY }}
           consumer-secret: ${{ secrets.TWITTER_CONSUMER_API_SECRET }}
           access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
